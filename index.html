@@ -5,71 +5,186 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vinita Potter</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
-        <img src="http://www.worldfactsftw.com/wp-content/uploads/2018/07/cee2da56-1e65-41dc-9b9f-a413b33c523c.png.jpg">
-        <h1>Frontend Developer</h1>
-        <p>Vinita Potter </p>
+        <div class="card bg-dark text-white text-bottom ">
+            <img class="card-img" src="laptop.jpg"" alt="laptop on the backdrop of forest" title="Photo by Nail Gilfanov on Unsplash">  
+            <div class="card-img-overlay d-flex flex-column justify-content-center text-center">
+                <h1 class="card-title display-4">Frontend Developer</h1>
+                <p>From business developer to web developer</p>
+                <p class="card-text h2 mt-5">Vinita Kumbhar</p> 
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-light bg-secondary ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon justify-right "></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+                <ul class="navbar-nav sticky-top h5">
+                    <li class="nav-item active"><a href="#about" class="nav-link text-white">About me</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link text-white">Experience</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link text-white">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link text-white">Education</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-white">Contact</a></li>
+                </ul>
+            </div>    
+        </nav>
     </header>
+    <br><br>
     <main>
-        <section class="about">
-                I have over 5 years of experience working in various fields as a Business Developer. But life had it's own way of directing me to what I do now. You can read more about my journey on my blog www.abiteofsojourn.wordpress.com
+        <section id="about" class="row">
+            <p class="col col-lg-3 text-center m-auto point"><span class="fas fa-portrait"></span> About </p>
+            <p class="col col-lg-9">I have over 5 years of experience working in various fields as a Business Developer. But life had it's own way of directing me to what I do now. You can read more about my journey on my blog www.abiteofsojourn.wordpress.com</p>
         </section>
-        <section class="experience">
-            <ul>
-                <li>
-                    <h2>Web Developer</h2>
-                    <p>Freelancer</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos quasi, illum, nulla, expedita porro suscipit eveniet laboriosam voluptas veniam dolorem aperiam nobis voluptates nemo eius totam explicabo sapiente animi. Assumenda!</p>
-                </li>
-                <li>
-                    <h2>Prevous</h2>
-                    <p>Various</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, consectetur impedit vel quia et exercitationem magnam odit. Tempore earum obcaecati fugiat provident eligendi laborum, suscipit modi quibusdam. Debitis hic placeat aliquid fugit. Eaque delectus beatae eum expedita nisi, aliquam deleniti?</p>
-                </li>
-            </ul>
-        </section>
-        <section class="skills">
-            <ul class="Technologies">
-                <li>HTML
-                    <progress value="22" max="100"></progress>
-                </li>
-                <li>CSS
-                    <progress value="22" max="100"></progress>
-                </li>
-                <li>JavaScript
-                    <progress value="22" max="100"></progress>
-                </li>
-            </ul>
-            <ul class="framework">
-                <li>Bootstrap
-                    <progress value="22" max="100"></progress>
-                </li>
-                <li>Vue
-                    <progress value="22" max="100"></progress>
-                </li>
-            </ul>
+        <section id="experience">
+            <div class="row">
+                <p class="col-lg-3 text-center m-auto point"><span class="fas fa-briefcase"></span> Experience </p>
+                <div class="col-lg-9 ">
+                    <ul class="list-unstyled">
+                        <li class="card">
+                            <div class="card-body">
+                                    <h2 class="card-title">Web Developer</h2>
+                                    <p class="card-subtitle">Freelancer</p>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos quasi, illum, nulla, expedita porro suscipit eveniet laboriosam voluptas veniam dolorem aperiam nobis voluptates nemo eius totam explicabo sapiente animi. Assumenda!</p>
+                            </div>
+                        </li>
+                        <br>
+                        <li class="card">
+                            <div class="card-body">
+                                    <h2 class="card-title">Previous</h2>
+                                    <p class="card-subtitle">Various</p>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, consectetur impedit vel quia et exercitationem magnam odit. Tempore earum obcaecati fugiat provident eligendi laborum, suscipit modi quibusdam. Debitis hic placeat aliquid fugit. Eaque delectus beatae eum expedita nisi, aliquam deleniti?</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
         </section>
-        <section class="education">
-            <ul>
-                <li>
-                    <h3>Fergusson College</h3>
-                    <p>Bachelor of sociology- 2012</p>
+        <section id="skills" class="row">
+            <p class="col col-lg-3 text-center m-auto point"><span class="fas fa-hammer"></span> Skills </p>
+            <div class="col col-lg-9">
+                    <ul class="Technologies list-unstyled">
+                        <p class="h5">Technologies</p>
+                        <div class="row">
+                            <li class="col" title ="82%">HTML
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 82%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li class="col" title ="80%">CSS
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li class="col" title ="65%" >JavaScript
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                        </div>
+
+                    </ul>
+                    <ul class="framework list-unstyled ">
+                        <p class="h5">Frameworks</p>
+                        <div class="row">
+                            <li class="col" title ="67%">Bootstrap
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="25"
+                                    style="width: 67%" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li class="col">Vue
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 51%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul class="framework list-unstyled ">
+                        <p class="h5">Other</p>
+                        <div class="row">
+                            <li class="col" title ="83%">GIt/ GitHub
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="25"
+                                    style="width: 83%" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li class="col" title ="38%" >NodeJS with Express
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 38%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li class="col" title ="49%"> MongoDB/ PostGreSQL
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 49%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+            </div>
+
+        </section>
+        <section id="education" class="row">
+            <p class="col col-lg-3 text-center m-auto point"><span class="fas fa-graduation-cap"></span> Education </p>
+            <ul class="col col-lg-9 list-unstyled card">
+                <div class="card-body">
+                    <li>
+                        <h3 class="crd-title">Fergusson College</h3>
+                        <p class="card-subtitle">Class of 2012</p>
+                        <p class="card-text">Bachelor of sociology</p>
                 </li>
+                </div>
             </ul>
         </section>
     </main>
     <footer>
-        <h4>Get in touch</h4>
-        <p><a href="">LinkedIn</p>
-        <p><a href="">Instagram</a></p>
-        <p><a href="">Blog</a></p>
-        <p><a href="">GitHub</a></p>
+        <div id="contact" class="row">
+            <p class="col col-lg-3 text-center m-auto point"><span class="fas fa-coffee"></span> Get in touch </p>
+            <div class="col col-lg-9 card-deck text-center">
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
+                        <span class="fab fa-linkedin-in"></span>
+                        <h6 class="card-title">LinkedIn</h6>
+                        <p class="card-text text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, est!</p>
+                        <button class="btn btn-primary btn-block mt-auto"><a class="text-white" href="https://linkedin.in/vinitavkumbhar" target=_blank></a>LinkedIn</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
+                        <span class="fab fa-wordpress"></span>
+                        <h6 class="card-title">A Bite Of Sojourn</h6>
+                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dignissimos!</p>
+                        <button class="btn btn-primary btn-block mt-auto"><a class="text-white" href="htpps://www.abiteofsojourn.wordpress.com/code" target=_blank></a>Blog</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
+                        <span class="fab fa-github"></span>
+                        <h6 class="card-title">GitHub</h6>
+                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, expedita?</p>
+                        <button class="btn btn-primary btn-block mt-auto"><a class="text-white" href="https://www.github.com/VinitaPotter"></a>GitHub</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body d-flex flex-column">
+                        <span class="fab fa-instagram"></span><h6>Instagram</h6>
+                        <p class="card-text text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, harum.</p>
+                        <button class="btn btn-primary btn-block mt-auto"><a class="text-white" href="https://www.instagram.com/abiteofsojourn" target= _blank>Instagram</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
-    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
 </body>
 </html>
