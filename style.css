@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
     scroll-behavior: smooth;
@@ -7,10 +8,12 @@ html {
 body {
     font-family: 'Didact Gothic', sans-serif;
     margin-bottom: 50px;
+    background-color: rgba(95, 186, 126, .1);
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
 }
 main {
     margin-left: 20px;
@@ -27,6 +30,10 @@ h5 {
 }
 section {
     margin-top: 2rem;
+}
+
+.heading {
+    background-color: rgba(48, 39, 49, .7);
 }
 
 
@@ -52,7 +59,6 @@ section {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 25px;
     z-index: 1;
 }
 
@@ -60,14 +66,88 @@ section {
     float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px;
+    text-align: left;
+    padding-top: 14px;
     text-decoration: none;
   }
 
-  .card-img-top {
+.card-img-top {
       height: 200px;
   }
+
+#prevExp {
+    color: white;
+}
+
+#experience {
+    padding: 20px;
+}
+
+#education {
+    padding: 20px;
+}
+
+.typewriter{
+    overflow: hidden; 
+    border-right: .15em solid #BF9F62;
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  .copyright {
+      position: sticky;
+      margin-bottom: -20px;
+      width: 100%;
+      margin-top: 20px;
+      padding-top: 10px;
+      margin-bottom: 0;
+  }
+
+  .primary-color {
+      background-color: #5FBA7D;
+  }
+
+  #primary {
+      color: #5FBA7D;
+      font-weight: 800;
+      
+  }
+
+  .secondary-color {
+      background-color: #8CD4A4;
+  }
+
+  .btn-color {
+    background-color: #588772;
+  }
+
+  /* .btn-color {
+      /* background-color: #208843; */
+     /* background-color: #83B3C3; */
+    /* background-color: #B8F4F4; */
+  } */
+
+
+
+
+
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 32% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
 
 
 /* Small devices (landscape phones, 576px and up) */

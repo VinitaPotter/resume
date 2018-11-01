@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript, resume, vue, web developer, programmer">
     <title>Vinita Kumbhar</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,24 +14,26 @@
 </head>
 <body>
     <header>
-        <button class="btn btn-warning wow heartBeat" data-wow-delay="15s" id="hire"><a href="mailto:vinitavkumbhar@gmail.com">Hire me!!</a></button>
-        <div class="card bg-dark text-white text-bottom ">
-            <img class="card-img wow zoomIn"data-wow-duration="4s" src="laptop.jpg"" alt="laptop on the backdrop of forest" title="Photo by Nail Gilfanov on Unsplash">  
-            <div class="card-img-overlay d-flex flex-column justify-content-center text-center">
-                <h1 class="card-title display-4">Frontend Developer</h1>
-                <p>From business developer to web developer</p>
-                <p class="card-text h2 mt-5 name">Vinita Kumbhar</p> 
+        <button class="btn btn-color wow heartBeat" data-wow-delay="15s" id="hire"><a href="mailto:vinitavkumbhar@gmail.com">Hire me!!</a></button>
+        <div class="card primary-color text-white text-bottom">
+            <img class="card-img wow fadeIn bg-img" data-wow-duration="4s" src="img/vivek-kumar-394543-unsplash.jpg" alt="laptop on table" title="Photo by Vivek Kumar on Unsplash">  
+            <div class="card-img-overlay d-flex flex-column justify-content-center text-center heading">
+                <h1 class="card-title display-4 name"><span id="primary" class="display-3">Vinita </span>Kumbhar</h1>
+                <p class="card-text h2 mt-5 name">Front-end Developer</p> 
+                <p class="typewriter">From business developer to web developer!</p>
             </div>
         </div>
-        <nav id= "navbar" class="navbar navbar-expand-sm navbar-light bg-secondary ">
+        <nav id= "navbar" class="navbar navbar-expand-sm navbar-light primary-color ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon justify-right "></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
                 <ul class="navbar-nav h5">
-                    <li class="nav-item active"><a href="#about" class="nav-link text-white">About me</a></li>
+                    <li class="nav-item active"><a href="#about" class="nav-link text-white">About</a></li>
                     <li class="nav-item"><a href="#experience" class="nav-link text-white">Experience</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link text-white">Skills</a></li>
                     <li class="nav-item"><a href="#education" class="nav-link text-white">Education</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link text-white">Certifications</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link text-white">Portfolio</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
                 </ul>
             </div>    
@@ -38,33 +41,38 @@
     </header>
     <br><br>
     <main>
-        <section id="about" class ="wow fadeInLeft" data-wow-duration="2s">
+        <section id="about" class ="wow fadeInLeft " data-wow-duration="2s">
             <div class="row">
                 <p class="col col-lg-3 col-sm-12 col-12 col-12 text-center m-auto point"><span class="fas fa-portrait"></span> About </p>
                 <br><br>
-                <p class="col col-lg-9 col-sm-12 col-12 col-12"> I have over 5 years of experience working in various fields as a Business Developer. But life had it's own way of directing me to what I do now. You can read more about my journey on my blog www.abiteofsojourn.wordpress.com</p>
+                <div class="col col-lg-9 col-sm-12 col-12 col-12">
+                    <p>I am a people's person. I love humans. And I especially love talking to them. Be it in person or through the alphabets on the screen.That's why I have had the most fun while working as a business developer for past 6 years. </p>
+                    <p>Working with people opens you up to opportunities, perspectives and ideas that you wouldn't have bothered about on your own. This is how I came across the world of programming. It was a short video teaching python basics, but since then I have been hooked. It wasn't an on the spot decision to move away from what I loved as a profession. However what started as a side hobby, soon turned into an obssession- a good kind of obssession. After going through various programming languages, I finally saw the magic for the first time on a web browser. And that's how I have landed up here. And I love it here even more! 😎 </p>
+                </div>
             </div>
         </section>
-        <section id="experience" class ="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
+        <section id="experience" class ="wow fadeInRight primary-color" data-wow-duration="2s" data-wow-delay="1s">
             <div class="row">
-                <p class="col col-lg-3 col-sm-12 col-12 text-center m-auto point"><span class="fas fa-briefcase"></span> Experience </p>
+                <p class="col col-lg-3 col-sm-12 col-12 text-center text-white m-auto point"><span class="fas fa-briefcase"></span> Experience </p>
                 <br><br>
-                <div class="col col-lg-9 col-sm-12 col-12">
+                <div class="col col-lg-9 col-sm-12 col-12 ">
                     <ul class="list-unstyled">
-                        <li class="card">
-                            <div class="card-body">
+                        <li class="card text-white primary-color">
+                            <div class="card-body ">
                                     <h2 class="card-title">Web Developer</h2>
                                     <p class="card-subtitle">Freelancer</p>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos quasi, illum, nulla, expedita porro suscipit eveniet laboriosam voluptas veniam dolorem aperiam nobis voluptates nemo eius totam explicabo sapiente animi. Assumenda!</p>
+                                    <p class="card-text">August 2018- present</p>
+                                    <p class="card-text">I chose the path of going self-taugh way to be a programmer. I have good grasp on front-end technologies- HTML5, CSS3 and vanilla JavaScrip. I am currently working on full-stack application with Vue.js framework to bridge the gap between damand and supply for the vegan community, as well as on a simplifies, minimalist journaling application. </p>
                             </div>
                         </li>
                         <br>
-                        <li class="card">
+                        <li class="card text-white primary-color">
                             <div class="card-body">
-                                <h2 class="card-title"><a data-toggle="collapse" href="#test-block" aria-expanded="true" aria-controls="test-block"> Business Developer </a></h2>
-                                <div id="test-block" class="collapse">
+                                <h2 class="card-title"><a data-toggle="collapse" href="#previous-experience" aria-expanded="true" aria-controls="test-block" id="prevExp"> Business Developer </a></h2>
+                                <div id="previous-experience" class="collapse">
                                     <p class="card-subtitle">Various</p>
-                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, consectetur impedit vel quia et exercitationem magnam odit. Tempore earum obcaecati fugiat provident eligendi laborum, suscipit modi quibusdam. Debitis hic placeat aliquid fugit. Eaque delectus beatae eum expedita nisi, aliquam deleniti?</p>
+                                    <p class="card-text">April 2013- present</p>
+                                    <p class="card-text">I have over 6 year's of experience working as a business developer in various fields. This experience has helped me understand both sides of the coin from extrem proximity. And this puts me in a better position as a web developer as I understand what the client seeks as well the limitation and strengths of a business, and a web developer's job is connecting these two sides while still maintaining the delicate balance of that coin. You can read more about my experience <a class="text-white" href="https://linkedin.in/vinitavkumbhar" target=_blank>here</a>.</p>
                                 </div>      
                             </div>
                         </li>
@@ -78,60 +86,60 @@
             <br><br>
             <div class="col col-lg-9">
                     <ul class="Technologies list-unstyled">
-                        <p class="h5">Technologies</p>
+                        <p class="h5 text-center">Technologies</p>
                         <div class="row">
                             <li class="col col-sm-12 col-12" title ="82%">HTML
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped  bg-success 
+                                    <div class="progress-bar  primary-color 
                                     wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 82%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li class="col col-sm-12 col-12" title ="80%">CSS
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-success wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar primary-color wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li class="col col-sm-12 col-12" title ="65%" >JavaScript
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped  bg-warning wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar  secondary-color wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                         </div>
 
                     </ul>
                     <ul class="framework list-unstyled ">
-                        <p class="h5">Frameworks</p>
+                        <p class="h5 text-center">Frameworks</p>
                         <div class="row">
                             <li class="col col-sm-12 col-12" title ="67%">Bootstrap
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped  bg-success wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" aria-valuenow="25"
+                                    <div class="progress-bar  primary-color wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" aria-valuenow="25"
                                     style="width: 67%" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li class="col col-sm-12 col-12">Vue
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-warning wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 51%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar secondary-color wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 51%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                         </div>
                     </ul>
                     <ul class="framework list-unstyled ">
-                        <p class="h5">Other</p>
+                        <p class="h5 text-center">Other</p>
                         <div class="row">
                             <li class="col col-sm-12 col-12" title ="83%">GIt/ GitHub
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-success wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" aria-valuenow="25"
+                                    <div class="progress-bar primary-color wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" aria-valuenow="25"
                                     style="width: 83%" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li class="col col-sm-12 col-12" title ="38%" >NodeJS with Express
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-warning wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 38%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar secondary-color wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 38%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li class="col col-sm-12 col-12" title ="49%"> MongoDB/ PostGreSQL
                                 <div class="progress">
-                                    <div class="progress-bar progress-bar-striped bg-warning wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 49%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar secondary-color wow slideInLeft" data-wow-duration="5s" data-wow-delay="1s" role="progressbar" style="width: 49%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                         </div>
@@ -139,13 +147,13 @@
             </div>
 
         </section>
-        <section id="education" class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+        <section id="education" class="row wow slideInLeft primary-color text-white" data-wow-duration="2s" data-wow-delay="1s">
             <p class="col col-lg-3 col-sm-12 col-12 text-center m-auto point"><span class="fas fa-graduation-cap"></span> Education </p>
             <br><br>
-            <ul class="col col-lg-9 col-sm-12 col-12 list-unstyled card">
+            <ul class="col col-lg-9 col-sm-12 col-12 list-unstyled card primary-color">
                 <div class="card-body">
                     <li>
-                        <h3 class="crd-title">Fergusson College</h3>
+                        <h3 class="crd-title">Fergusson College, Pune</h3>
                         <p class="card-subtitle">Class of 2012</p>
                         <p class="card-text">Bachelor of sociology</p>
                 </li>
@@ -167,18 +175,32 @@
                     <img class="card-img-top" src="img/Responsive web design certification.png" alt="Responsive web design certification">
                     <div class="card-body d-flex flex-column ">
                         <p class="card-text text-justify">Responsive web design certification from freeCodeCamp</p>
-                        <button class="btn btn-secondary btn-block mt-auto"><a class="text-white" href="https://www.freecodecamp.org/certification/vinita/responsive-web-design" target=_blank></a>Authenticate</button>
+                        <button class="btn btn-color text-white btn-block mt-auto"><a class="text-white" href="https://www.freecodecamp.org/certification/vinita/responsive-web-design" target=_blank></a>Authenticate</button>
                     </div>
                 </div>
                 <div class="card wow flipInX" data-wow-duration="3s" data-wow-delay="1s">
                     <img class="card-img-top" src="img/javaScrip cerification.png" alt="JavaScrip certification">
                     <div class="card-body d-flex flex-column ">
                         <p class="card-text text-justify">JavaScrip algorithms and data structure certification from freeCodeCamp </p>
-                        <button class="btn btn-secondary btn-block mt-auto"><a class="text-white" href="https://www.freecodecamp.org/certification/vinita/javascript-algorithms-and-data-structures" target=_blank></a>Authenticate</button>
+                        <button class="btn btn-color text-white btn-block mt-auto"><a class="text-white" href="https://www.freecodecamp.org/certification/vinita/javascript-algorithms-and-data-structures" target=_blank></a>Authenticate</button>
                     </div>
                 </div>
             </div>
-
+        </section>
+        <section id="portfolio" class="row">
+            <p class="col col-lg-3 col-md-3 col-sm-12 col-12 point text-center"><span class="fas fa-file-code"></span> Portfolio </p>
+            <br><br>
+            <div class="col col-lg-9 col-sm-12 col-md-12 col-12 card-deck text-center">
+                <div class="card wow slideInUp" data-wow-duration="3s" data-wow-delay="1s">
+                    <a href="https://vinitapotter.github.io/travel-site/" target=_blank><img class="card-img-top" src="img/travel-site.png" alt="travel company website"></a>
+                </div>
+                <div class="card wow slideInUp" data-wow-duration="3s" data-wow-delay="1s">
+                    <a href="https://vinitapotter.github.io/Robofriends/" target=_blank><img class="card-img-top" src="img/robofriends.png" alt="Robot friends search app"></a>
+                </div>
+                <div class="card wow slideInUp" data-wow-duration="3s" data-wow-delay="1s">
+                    <a href="https://vinitapotter.github.io/Forkify/" target=_blank><img class="card-img-top" src="img/forkify.png" alt="Recipe search and shop app"></a>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -187,39 +209,44 @@
             <br><br>
             <div class="col col-lg-9 col-sm-12 col-md-12 col-12 card-group text-center">
                 <div class="card wow flipInX" data-wow-duration="3s" data-wow-delay="1s">
-                    <div class="card-body d-flex flex-column ">
+                    <div class="card-body d-flex flex-column primary-color">
                         <span class="fab fa-linkedin-in"></span>
                         <h6 class="card-title">LinkedIn</h6>
-                        <p class="card-text text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, est!</p>
-                        <button class="btn btn-primary btn-block mt-auto"><a class="text-white" href="https://linkedin.in/vinitavkumbhar" target=_blank></a>LinkedIn</button>
+                        <p class="card-text text-justify">Work history, projects, recommendations and more! 😊</p>
+                        <button class="btn btn-color btn-block mt-auto"><a class="text-white" href="https://linkedin.in/vinitavkumbhar" target=_blank>LinkedIn</a></button>
                     </div>
                 </div>
-                <div class="card wow flipInX" data-wow-duration="3s" data-wow-delay="2s">
+                <div class="card wow flipInX primary-faded" data-wow-duration="3s" data-wow-delay="2s">
                     <div class="card-body d-flex flex-column">
                         <span class="fab fa-wordpress"></span>
                         <h6 class="card-title">A Bite Of Sojourn</h6>
-                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dignissimos!</p>
-                        <button class="btn btn-primary btn-block mt-auto"><a class="text-white" href="htpps://www.abiteofsojourn.wordpress.com/code" target=_blank></a>Blog</button>
+                        <p class="card-text text-justify">Here I write about technology, the way I wish I had learnt it! 😉</p>
+                        <button class="btn btn-color btn-block mt-auto"><a class="text-white" href="https://abiteofsojourn.wordpress.com/category/coding/" target=_blank>Blog</a></button>
                     </div>
                 </div>
-                <div class="card wow flipInX" data-wow-duration="3s" data-wow-delay="3s">
+                <div class="card wow flipInX primary-color" data-wow-duration="3s" data-wow-delay="3s">
                     <div class="card-body d-flex flex-column">
                         <span class="fab fa-github"></span>
                         <h6 class="card-title">GitHub</h6>
-                        <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, expedita?</p>
-                        <button class="btn btn-primary btn-block mt-auto"><a class="text-white" href="https://www.github.com/VinitaPotter"></a>GitHub</button>
+                        <p class="card-text text-justify">All my programming work history 😜</p>
+                        <button class="btn btn-color btn-block mt-auto"><a class="text-white" href="https://www.github.com/VinitaPotter">GitHub</a></button>
                     </div>
                 </div>
-                <div class="card wow flipInX" data-wow-duration="3s" data-wow-delay="4s">
+                <div class="card wow flipInX primary-faded" data-wow-duration="3s" data-wow-delay="4s">
                     <div class="card-body d-flex flex-column">
                         <span class="fab fa-instagram"></span><h6>Instagram</h6>
-                        <p class="card-text text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, harum.</p>
-                        <button class="btn btn-primary btn-block mt-auto"><a class="text-white" href="https://www.instagram.com/abiteofsojourn" target= _blank>Instagram</a></button>
+                        <p class="card-text text-justify">The everyday small achivements & struggles of being a self-taught developer 🙌</p>
+                        <button class="btn btn-color btn-block mt-auto"><a class="text-white" href="https://www.instagram.com/abiteofsojourn" target= _blank>Instagram</a></button>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <div class="copyright">
+        <p class="text-center">
+            &copy; 2018
+        </p>
+    </div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
