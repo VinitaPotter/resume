@@ -1,6 +1,6 @@
-//new WOW().init();
-
 window.onscroll = function() {stickyNav()};
+
+
 
 let navbar = document.getElementById("navbar");
 let sticky = navbar.offsetTop;

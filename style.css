@@ -9,7 +9,9 @@ body {
     margin-bottom: 50px;
 }
 
-
+.name {
+    font-size: 2rem;
+}
 main {
     margin-left: 20px;
     margin-right: 20px;
@@ -27,13 +29,14 @@ section {
     margin-top: 2rem;
 }
 
+
 #hire {
     position: fixed;
-    z-index: 3;  
-    top: 50%;
-    right: 0;  
-}
+    bottom: 0;
+    right: 0;
+    z-index: 3;
 
+}
 
 #hire a {
     color: white;
@@ -62,18 +65,28 @@ section {
     text-decoration: none;
   }
 
+  .card-img-top {
+      height: 200px;
+  }
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     img {
         width: 100%;
     }
+
 }
 
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     img {
         height: 100%;
+    }
+
+    #hire {
+        bottom: 500px;
+        right: 0;
     }
 }
 
