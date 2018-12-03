@@ -9,6 +9,7 @@ body {
     font-family: 'Didact Gothic', sans-serif;
     margin-bottom: 50px;
     background-color: rgba(95, 186, 126, .1);
+    overflow-x: hidden;
 }
 
 .name {
@@ -87,16 +88,7 @@ section {
     padding: 20px;
 }
 
-.typewriter{
-    overflow: hidden; 
-    border-right: .15em solid #BF9F62;
-    white-space: nowrap; 
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
+
 
   .copyright {
       position: sticky;
@@ -125,20 +117,26 @@ section {
     background-color: #588772;
   }
 
-  /* .btn-color {
-      /* background-color: #208843; */
-     /* background-color: #83B3C3; */
-    /* background-color: #B8F4F4; */
-  } */
+#more {
+    font-size: .8rem;
+    color: #111111;
+}
 
-
-
-
+.typewriter{
+    overflow: hidden; 
+    border-right: .15em solid #BF9F62;
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
 
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 32% }
+    to { width: 100% }
   }
   
   /* The typewriter cursor effect */
@@ -156,6 +154,13 @@ section {
         width: 100%;
     }
 
+    
+
+      #hire {
+        bottom: 500px;
+        right: 80px;
+    }
+
 }
 
 /*  Medium devices (tablets, 768px and up) */
@@ -168,6 +173,14 @@ section {
         bottom: 500px;
         right: 0;
     }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 43% }
+      }
+
+
+      
 }
 
 /*  Large devices (desktops, 992px and up) */
@@ -178,7 +191,11 @@ section {
 
     #contact {
         margin-right: 1px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
+
+    
 }
 
 /*  Extra large devices (large desktops, 1200px and up) */
@@ -186,5 +203,22 @@ section {
     img {
         height: 90vh;
     }
+
+    .typewriter{
+        overflow: hidden; 
+        border-right: .15em solid #BF9F62;
+        white-space: nowrap; 
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: 
+          typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+      }
+
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 32% }
+      }
+      
 
 }
